@@ -1,0 +1,38 @@
+.country {
+  &__item {
+    width: 300px;
+    text-align: center;
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+  }
+  &__name {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 950px) {
+  .country {
+    &__item {
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 630px) {
+  .country {
+    &__item {
+      width: 100%;
+      padding: 30px;
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .country {
+    &__name {
+      font-size: 20px;
+    }
+    &__lastupdate {
+      font-size: 14px;
+    }
+  }
+}
